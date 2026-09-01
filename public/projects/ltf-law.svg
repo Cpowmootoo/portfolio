@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+  <title id="title">Lepore Taylor Fox</title>
+  <desc id="desc">A refined typographic project card for Lepore Taylor Fox immigration law.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18231d"/>
+      <stop offset="1" stop-color="#30463a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="22%" cy="18%" r="75%">
+      <stop offset="0" stop-color="#d8be98" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#d8be98" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="840" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="840" rx="30" fill="url(#glow)"/>
+  <path d="M140 190h920M140 650h920" stroke="#d8be98" stroke-opacity=".38"/>
+  <text x="600" y="350" text-anchor="middle" fill="#f2eee7" font-family="Georgia, serif" font-size="104" letter-spacing="4">LEPORE TAYLOR FOX</text>
+  <text x="600" y="445" text-anchor="middle" fill="#d8be98" font-family="Arial, sans-serif" font-size="28" letter-spacing="10">IMMIGRATION LAW</text>
+  <text x="600" y="535" text-anchor="middle" fill="#d9d5cd" font-family="Arial, sans-serif" font-size="25" letter-spacing="2">EMPLOYERS · INDIVIDUALS · INVESTORS</text>
+</svg>
