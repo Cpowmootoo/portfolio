@@ -1,5 +1,9 @@
 declare module "cloudflare:workers" {
-  export const env: Record<string, unknown>;
+  export const env: {
+    DB?: D1Database;
+    ASSETS?: Fetcher;
+    [key: string]: unknown;
+  };
 }
 
 declare interface Fetcher {
@@ -13,4 +17,6 @@ declare interface D1Database {
     all<T = unknown>(...args: unknown[]): Promise<T[]>;
     raw<T = unknown>(...args: unknown[]): Promise<T[]>;
   };
+  dump(): Promise<unknown>;
+  exec(query: string): Promise<{ count?: number; duration?: number }>; 
 }
